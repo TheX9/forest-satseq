@@ -75,8 +75,8 @@ datasets = load_dataset_helper.get_datasets()
 
 ## Experiments
 **callbacks_config.py:** is used to specify the Tensorflow training callbacks.
-**models.py:** handles the hyperparameter optimization of the deep learning models.
-**model_baseline:** handles the hyperparameter optimization of the baseline model.
+ <br/>**models.py:** handles the hyperparameter optimization of the deep learning models.
+ <br/>**model_baseline:** handles the hyperparameter optimization of the baseline model.
 
 Model weights of the best performing models will follow.
 
