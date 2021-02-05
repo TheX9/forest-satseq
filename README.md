@@ -1,7 +1,7 @@
 # Future Forest Loss Prediction
 
 This repository contains code used for my master thesis "Predicting Future Deforestation Using Satellite Images".
-![alt text](https://github.com/thex/forest-satseq/blob/master/images/top_pred.png)
+![alt text](https://github.com/thex9/forest-satseq/blob/master/images/top_pred.png)
 # Files
 ## Configuration
 config.py: is used to specify general settings.
