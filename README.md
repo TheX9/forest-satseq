@@ -4,8 +4,8 @@ This repository contains code used for my master thesis "Predicting Future Defor
 ![alt text](https://github.com/thex9/forest-satseq/blob/master/images/top_pred.png)
 # Files
 ## Configuration
-config.py: is used to specify general settings.
-logging_config.py: logging configuration.
+**config.py:** is used to specify general settings.
+ <br/>**logging_config.py:** logging configuration.
 ## Data Sampling
 **Sample Year Statistics.ipynb:** is used to determine the amount of satellite imagery for different months.
  <br/>**create_non_overlapping_samples.py:** creates non-overlapping train, validation, test splits for an input of patches.
