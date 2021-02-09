@@ -1,6 +1,8 @@
 # Future Forest Loss Prediction
 
 This repository contains code used for my master thesis "Predicting Future Deforestation Using Satellite Images".
+
+The figure shows prediction results of different models. Each row represents a different test patch, while the first column shows the ground truth and the other columns show the prediction of the baseline and the proposed models. Yellow pixels denote forest loss.
 ![alt text](https://github.com/thex9/forest-satseq/blob/master/images/top_pred.png)
 # Files
 ## Configuration
