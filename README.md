@@ -18,11 +18,16 @@ This repository contains code used for my master thesis "Predicting Future Defor
 ## Data Visualization
 **GE - Visualize Features.ipynb:** is used to visualize the different features.
 
-## Dataset
-Raw data is removed from the repository due to size limitations.
-Links to download the 64px, 256px and baseline dataset will follow.
-**/data/shapefiles:** contains the shapefiles used for sampling.
- <br/>**/data/stats:** contains statistics about satellite image availability and forest loss per point.
+## Datasets
+Raw data sampled from Google Earth Engine is removed from the repository due to size limitations.
+The following datasets will be available shortly:
+<br/>64px, 256px dataset sampled from the deforestation fronts of the Amazon
+<br/>64px, 256px dataset sampled from the whole Amazon region
+<br/>
+<br/>64px baseline dataset
+
+<br/>**/data/shapefiles:** contains the shapefiles used for sampling.
+<br/>**/data/stats:** contains statistics about satellite image availability and forest loss per point.
 
  <br/>**load_dataset.py:** is used to load the datasets.
 
