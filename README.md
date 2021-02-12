@@ -105,20 +105,6 @@ def load_model(model_name, dataset, beta, lr, dropout, dataset_file_path):
     return dl_runhandler.datasets, model
 ```
 
-Best model for Conv3D with satellite bands and forest loss (overall best model)
-```python
-# Model conv3d comb
-model_name = 'segmenting_future_double_reduced_conv3d'
-dataset_file_path = 'data/datasets/main/2013_2019/64px_comb/'
-dataset = '64px_comb'
-beta = 0.995
-lr = 0.001
-dropout = 0.1
-
-# Init model
-datasets, model_dl = load_model(model_name, dataset, beta, lr, dropout, dataset_file_path)
-```
-
 Best model for Conv3D with satellite bands only
 ```python
 # Model conv3d img only
