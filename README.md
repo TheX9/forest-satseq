@@ -88,6 +88,22 @@ datasets = load_dataset_helper.get_datasets()
 <br/>
 <br/>
 The best deep learning models alongside the dataset can be loaded using:
+```python
+import models
+def load_model(model_name, dataset, beta, lr, dropout, dataset_file_path):
+    dl_runhandler = models.RunHandler(model_name = model_name, mode = dataset, dataset_file_path = dataset_file_path)
+    hparams = {dl
+            models.HP_DROPOUT: dropout,
+            models.HP_BETA: beta,
+            models.HP_LEARNING_RATE: lr,
+            }
+    model = models.get_model(dl_runhandler.model_name, dl_runhandler.keras_norm_params, dl_runhandler.mode, hparams, dl_runhandler.tile_size)
+    
+    weight_file = f'models/{model_name}/{dataset}/weights/dropout_{dropout}_beta_{beta}_learning_rate_{lr}/best_model.h5'
+    
+    model.load_weights(weight_file)
+    return dl_runhandler.datasets, model
+```
 
 
 Best model for Conv3D with satellite bands and forest loss (overall best model)
