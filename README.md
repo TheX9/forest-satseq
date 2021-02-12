@@ -22,7 +22,7 @@ The figure shows prediction results of different models. Each row represents a d
 
 ## Datasets
 Raw data sampled from Google Earth Engine is removed from the repository due to size limitations.
-The following datasets will be available shortly:
+The following datasets can be downloaded from https://drive.google.com/drive/folders/1ODuUNBAGtQdCcVp8dfO5CFyWRzEBkS6t?usp=sharing:
 <br/>64px, 256px dataset sampled from the deforestation fronts of the Amazon
 <br/>64px, 256px dataset sampled from the whole Amazon region
 <br/>
