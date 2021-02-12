@@ -88,6 +88,7 @@ datasets = load_dataset_helper.get_datasets()
 <br/>
 <br/>
 The best deep learning models alongside the dataset can be loaded using:
+
 ```python
 import models
 def load_model(model_name, dataset, beta, lr, dropout, dataset_file_path):
@@ -102,8 +103,6 @@ def load_model(model_name, dataset, beta, lr, dropout, dataset_file_path):
     model.load_weights(weight_file)
     return dl_runhandler.datasets, model
 ```
-
-
 Best model for Conv3D with satellite bands and forest loss (overall best model)
 
 ```python
